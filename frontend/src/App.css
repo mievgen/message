@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
 
 .App{
     min-height: 100vh;
     display: flex;
-    background-image: url("./img/grey-and-black-texture.jpg");
-    background-size: cover;
-    background-position: center;
+    /*background-image: url("./img/grey-and-black-texture.jpg");8
+     */
+    background: linear-gradient(to bottom right, #6c757d, #212529);
+   /* background-size: cover;
+    background-position: center;*/
+
+
+}
+.Text{
+    font-family: 'Work Sans', sans-serif;
 }
